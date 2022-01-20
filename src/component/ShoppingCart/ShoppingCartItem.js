@@ -1,6 +1,9 @@
 import React from 'react';
 
-const ShoppingCartItem = () => {
+const ShoppingCartItem = ({data}) => {
+
+  const [imgPath, productName, productCost, productQuantity] = data
+
  return (
    <tr>
      <td>圖片</td>
