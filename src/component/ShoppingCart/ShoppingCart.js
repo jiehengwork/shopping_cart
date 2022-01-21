@@ -2,7 +2,7 @@ import React from 'react';
 import ShoppingCartItem from './ShoppingCartItem';
 
 // 模擬從API取得的檔案 (API從用戶資料表取得產品&數量 + 產品資料表取得圖片&定價)
-const fakeData = [['./build/picture/productPic.jpg', '測試商品', '100', '1'],['./build/picture/productPic.jpg', '測試商品', '100', '1']]
+const fakeData = [['./build/picture/productPic.jpg', '測試商品1', '100', '1'],['./build/picture/productPic.jpg', '測試商品2', '200', '1']]
 const shoppingCartContent = []
 fakeData.forEach(item => {
   shoppingCartContent.push(<ShoppingCartItem data={item}/>)
